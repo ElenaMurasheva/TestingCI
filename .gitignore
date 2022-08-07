@@ -1,3 +1,7 @@
+HELP.md
+.gradle
+build/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -25,7 +29,6 @@ out/
 .vscode/
 
 ### Package Files ###
-*.jar
 *.war
 *.nar
 *.ear
@@ -33,15 +36,7 @@ out/
 *.tar.gz
 *.rar
 
-### Stuff ###
-.allure/
-node_modules/
-
 ### Exclusions ###
-HELP.md
-.gradle
-build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
